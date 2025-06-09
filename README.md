@@ -16,10 +16,10 @@ Presiona el botón "Roll Dice" para cambiar aleatoriamente el valor del dado.
 ## 📸 Antes y Después
 
 ### 🧾 Antes
-![Antes](screenshots/before.jpeg)
+![Antes](screenshots/after.jpeg)
 
 ### 🎉 Después
-![Después](screenshots/after.png)
+![Después](screenshots/before.png)
 
 ---
 
