@@ -19,7 +19,7 @@ Presiona el botón "Roll Dice" para cambiar aleatoriamente el valor del dado.
 ![Antes](screenshots/after.jpeg)
 
 ### 🎉 Después
-![Después](screenshots/before.png)
+![Después](screenshots/before.jpeg)
 
 ---
 
