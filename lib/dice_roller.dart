@@ -56,7 +56,7 @@ class _DiceRollerState extends State<DiceRoller> {
             ),
           ),
           child: const Text(
-            'Roll Dice',
+            'Checa tu suerte con el dado',
             style: TextStyle(color: Colors.white),
           ),
         ),
