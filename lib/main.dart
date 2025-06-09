@@ -7,8 +7,8 @@ void main() {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: GradientContainer([
-          Color(0xFF141E30),
-          Color(0xFF243B55),
+          Color(0xFFFFC0CB), // Rosa claro
+          Color(0xFFFF69B4), // Rosa intenso
         ]),
       ),
     ),
