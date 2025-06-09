@@ -2,10 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:custom_app_test/gradient_container.dart';
 
 void main() {
-  runApp(MaterialApp(
-    home: Scaffold(
-      body: GradientContainer(
-          [Color.fromARGB(255, 1, 57, 102), Color.fromARGB(255, 1, 114, 206)]),
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: GradientContainer([
+          Color(0xFF141E30),
+          Color(0xFF243B55),
+        ]),
+      ),
     ),
-  ));
+  );
 }
