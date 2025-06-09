@@ -1,16 +1,31 @@
-# my_first_app
+# 🎲 Dice Roller App
 
-A new Flutter project.
+Una app simple hecha con Flutter que simula el lanzamiento de un dado con una animación y botón interactivo.  
+Presiona el botón "Roll Dice" para cambiar aleatoriamente el valor del dado.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Cambios realizados
 
-A few resources to get you started if this is your first Flutter project:
+- 🎨 **Fondo de pantalla**: se cambió de un degradado azul a un degradado **rosa**.
+- 🎲 **Estilo del dado**: ahora el dado tiene un fondo blanco, bordes redondeados y sombra para mejor visibilidad.
+- 🖌️ **Tipografía y botones**: se mejoró el tamaño del texto y el estilo del botón.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Antes y Después
+
+### 🧾 Antes
+![Antes](screenshots/before.jpeg)
+
+### 🎉 Después
+![Después](screenshots/after.png)
+
+---
+
+## 🚀 Cómo ejecutar
+
+```bash
+flutter pub get
+flutter run
+
