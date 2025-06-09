@@ -26,43 +26,39 @@ class _DiceRollerState extends State<DiceRoller> {
       mainAxisSize: MainAxisSize.min,
       children: [
         Container(
+          padding: const EdgeInsets.all(12),
           decoration: BoxDecoration(
+            color: Colors.white, // Fondo del dado
             borderRadius: BorderRadius.circular(20),
             boxShadow: const [
               BoxShadow(
-                color: Colors.black45,
-                blurRadius: 15,
-                offset: Offset(0, 8),
+                color: Colors.black26,
+                blurRadius: 10,
+                offset: Offset(0, 6),
               ),
             ],
           ),
           child: ClipRRect(
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(16),
             child: Image.asset(
               'assets/images/dice-$currentDiceRoll.png',
               width: 200,
             ),
           ),
         ),
-        const SizedBox(height: 30),
+        const SizedBox(height: 20),
         TextButton(
           onPressed: rollDice,
           style: TextButton.styleFrom(
-            backgroundColor: const Color(0xFF1E3C72),
             foregroundColor: Colors.white,
-            padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
-            textStyle: GoogleFonts.robotoMono(
-              fontSize: 22,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 1.2,
+            textStyle: const TextStyle(
+              fontSize: 28,
             ),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
-            ),
-            shadowColor: Colors.black54,
-            elevation: 6,
           ),
-          child: const Text('Roll the Dice'),
+          child: const Text(
+            'Roll Dice',
+            style: TextStyle(color: Colors.white),
+          ),
         ),
       ],
     );
